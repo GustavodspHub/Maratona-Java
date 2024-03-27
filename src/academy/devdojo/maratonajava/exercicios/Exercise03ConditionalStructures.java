@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.exercicios;
-/*
-    Utilizando switch e os valores de 1 a 7, imprima se é dia útil ou final de semana, considerando 1 como domingo
-*/
+
+// Utilizando switch e os valores de 1 a 7, imprima se é dia útil ou final de semana, considerando 1 como domingo
+
 
 public class Exercise03ConditionalStructures {
     public static void main(String[] args) {

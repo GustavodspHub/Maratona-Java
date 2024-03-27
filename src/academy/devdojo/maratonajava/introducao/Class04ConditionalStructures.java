@@ -19,7 +19,6 @@ public class Class04ConditionalStructures {
         String resultIfHeCanBuyDrink = age >= 18 ? "He can buy drink" : "He can not buy drink";
         System.out.println(resultIfHeCanBuyDrink);
 
-        //
         if(age < 15) {
             category = "Category one";
         } else if(age >= 15 && age < 18) {

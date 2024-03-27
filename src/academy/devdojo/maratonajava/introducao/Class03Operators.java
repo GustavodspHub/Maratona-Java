@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Class03Operators {
     public static void main (String[] args) {
-        /* Arithmetic operators */
+        // Arithmetic operators
         // + - / * %
 
         int number01 = 10;
@@ -20,7 +20,7 @@ public class Class03Operators {
         System.out.println(result04);
         System.out.println(result05);
 
-        /* Relational Operators */
+        // Relational Operators
         // > < >= <= != ==
 
         boolean isTenBiggerThanTwenty = 10 > 20;
@@ -33,7 +33,7 @@ public class Class03Operators {
         System.out.println(isTenEqualThanTwenty);
         System.out.println(isTenDifferentThanTwenty);
 
-        /* Logical Operators */
+        // Logical Operators
         // && (AND) || (OR) ! (Logical Not)
 
         int age = 29;

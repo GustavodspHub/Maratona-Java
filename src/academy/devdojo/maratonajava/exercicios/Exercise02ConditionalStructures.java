@@ -1,4 +1,5 @@
 package academy.devdojo.maratonajava.exercicios;
+
 // I want to know how much I have to pay in the netherlands 2020 based on my annual salary
 
 public class Exercise02ConditionalStructures {

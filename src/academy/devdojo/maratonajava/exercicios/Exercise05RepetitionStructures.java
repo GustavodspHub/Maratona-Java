@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.exercicios;
-/*
-    Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado,
-    sendo que o valor minimo da parcela é de 1000
-*/
+
+// Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado,
+// sendo que o valor minimo da parcela é de 1000
+
 
 public class Exercise05RepetitionStructures {
     public static void main(String[] args) {
