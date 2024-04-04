@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 public class Class06Arrays {
     public static void main(String[] args) {
         // Arrays são do tipo reference
-        // Arrays são consideros objetos na memória
+        // Arrays são considerados objetos na memória
         // Para Arrays e tipos primitivos inicializados fora de um escopo local, há uma inicialização padrão
         /*
             byte, short, int, long, float e double = 0
