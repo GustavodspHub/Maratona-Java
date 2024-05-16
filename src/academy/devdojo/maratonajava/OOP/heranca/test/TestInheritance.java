@@ -13,8 +13,6 @@ public class TestInheritance {
         employee.setCpf("12345678912");
         employee.setAddress(address);
 
-        System.out.println(employee.getSalary());
-        System.out.println(employee.getCpf());
-        System.out.println(employee.getName());
+        employee.print();
     }
 }

@@ -5,6 +5,12 @@ public class Person {
     private String cpf;
     private Address address;
 
+    public void print() {
+        System.out.println(this.name);
+        System.out.println(this.cpf);
+        System.out.println(this.address.getCity() + " " + this.address.getCep());
+    }
+
     public String getName() {
         return name;
     }
