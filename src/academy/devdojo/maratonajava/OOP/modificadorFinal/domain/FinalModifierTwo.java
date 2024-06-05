@@ -10,4 +10,10 @@ public class FinalModifierTwo {
     public void setName(String name) {
         this.name = name;
     }
+
+    // Um método declarado com "Final" não pode ser sobrescrito.
+    public final void print() {
+        System.out.println(FinalModifier.FINAL_NUMBER);
+    }
+
 }
