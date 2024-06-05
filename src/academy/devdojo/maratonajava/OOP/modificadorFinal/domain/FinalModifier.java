@@ -5,6 +5,7 @@ package academy.devdojo.maratonajava.OOP.modificadorFinal.domain;
 
 public class FinalModifier {
     public static final double FINAL_NUMBER = 250;
+    public final FinalModifierTwo finalTwo = new FinalModifierTwo();
 
     public void print() {
         System.out.println(FinalModifier.FINAL_NUMBER);
