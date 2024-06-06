@@ -13,5 +13,7 @@ public class TestEnum {
         System.out.println(personTwo);
         System.out.println(PersonCard.DEBIT_CARD.discountCalculate(100));
         System.out.println(PersonCard.CREDIT_CARD.discountCalculate(100));
+        System.out.println(PersonTypeEnum.printPersonType("Pessoa Fisica"));
+        System.out.println(PersonTypeEnum.printPersonType("Pessoa Juridica"));
     }
 }

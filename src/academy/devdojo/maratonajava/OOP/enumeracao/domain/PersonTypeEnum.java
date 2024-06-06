@@ -7,6 +7,13 @@ public enum PersonTypeEnum {
     public final int personNumber;
     public final String personType;
 
+    public static PersonTypeEnum printPersonType(String personType) {
+        for(PersonTypeEnum type: values()) {
+            if(type.personType.equals(personType)) return type;
+        }
+        return null;
+    }
+
     PersonTypeEnum(int personNumber, String personType) {
         this.personNumber = personNumber;
         this.personType = personType;
