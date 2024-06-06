@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.OOP.enumeracao.test;
 
 import academy.devdojo.maratonajava.OOP.enumeracao.domain.Person;
-import academy.devdojo.maratonajava.OOP.enumeracao.domain.Person.PersonCard;
+import academy.devdojo.maratonajava.OOP.enumeracao.domain.PersonCard;
 import academy.devdojo.maratonajava.OOP.enumeracao.domain.PersonTypeEnum;
 
 public class TestEnum {
@@ -11,5 +11,7 @@ public class TestEnum {
 
         System.out.println(personOne);
         System.out.println(personTwo);
+        System.out.println(PersonCard.DEBIT_CARD.discountCalculate(100));
+        System.out.println(PersonCard.CREDIT_CARD.discountCalculate(100));
     }
 }

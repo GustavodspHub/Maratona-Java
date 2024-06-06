@@ -1,10 +1,6 @@
 package academy.devdojo.maratonajava.OOP.enumeracao.domain;
 
 public class Person {
-    public enum PersonCard {
-        DEBIT_CARD,
-        CREDIT_CARD
-    }
     private String name;
     private final PersonTypeEnum personType;
     private final PersonCard personCard;
