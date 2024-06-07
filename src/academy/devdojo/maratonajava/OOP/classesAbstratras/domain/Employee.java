@@ -1,15 +1,16 @@
 package academy.devdojo.maratonajava.OOP.classesAbstratras.domain;
 
 public abstract class Employee {
-    protected final String name;
-    protected final String position;
-    protected final double salary;
+    protected String name;
+    protected String position;
+    protected double salary;
 
 
     public Employee(String name, String position, double salary) {
         this.name = name;
         this.position = position;
         this.salary = salary;
+        bonusCalculate();
     }
 
     @Override
@@ -20,4 +21,6 @@ public abstract class Employee {
                 ", position='" + position + '\'' +
                 '}';
     }
+
+    public abstract void bonusCalculate();
 }
