@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.OOP.classesAbstratras.domain;
 
-public abstract class Employee {
+
+public abstract class Employee extends Person {
     protected String name;
     protected String position;
     protected double salary;
@@ -23,4 +24,8 @@ public abstract class Employee {
     }
 
     public abstract void bonusCalculate();
+
+    public void print(){
+        System.out.println("Printing...");
+    }
 }
